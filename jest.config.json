@@ -3,6 +3,5 @@
   "collectCoverage": true,
   "clearMocks": true,
   "resetMocks": true,
-  "resetModules": true,
-  "testResultsProcessor": "jest-sonar-reporter"
+  "resetModules": true
 }

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testExecutions version="1">
-  <file path="/Users/olliewilliams/Projects/node-starter/src/test/index.test.js">
-    <testCase name="tests are hooked up!" duration="1"/>
-  </file>
-</testExecutions>

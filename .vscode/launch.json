@@ -15,7 +15,7 @@
         },
         {
             "type": "node",
-            "name": "vscode-jest-tests",
+            "name": "Launch Tests",
             "request": "launch",
             "args": [
                 "--runInBand"

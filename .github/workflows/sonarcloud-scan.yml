@@ -28,7 +28,6 @@ jobs:
             -Dsonar.organization=pxlprfct
             -Dsonar.sourceEncoding=UTF-8
             -Dsonar.sources=.
-            -Dsonar.exclusions=**/*.test.js
-            -Dsonar.tests=src
+            -Dsonar.tests=src/test/
             -Dsonar.javascript.coveragePlugin=lcov
             -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info

@@ -31,4 +31,4 @@ jobs:
             -Dsonar.test.inclusions="*.test.js"
             -Dsonar.tests=src/test
             -Dsonar.javascript.coveragePlugin=lcov
-            -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info
+            -Dsonar.javascript.lcov.reportPaths=github/workspace/coverage/lcov.info

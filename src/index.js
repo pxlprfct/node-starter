@@ -1,15 +1,8 @@
 const message = `Hello, world!`;
 
-const test = () => {
-  const num = Math.random();
+const cat = () => `🐱`;
 
-  if (num === 1) {
-    return 12;
-  }
-
-  return 13;
+module.exports = {
+  message,
+  cat,
 };
-
-test();
-
-module.exports = message;

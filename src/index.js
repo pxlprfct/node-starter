@@ -1,5 +1,8 @@
 const message = `Hello, world!`;
 
-console.log(message);
+const cat = () => `🐱`;
 
-module.exports = message;
+module.exports = {
+  message,
+  cat,
+};

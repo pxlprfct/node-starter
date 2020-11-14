@@ -27,8 +27,8 @@ jobs:
             -Dsonar.projectKey=pxlprfct_node-starter
             -Dsonar.organization=pxlprfct
             -Dsonar.sourceEncoding=UTF-8
-            -Dsonar.sources=.
-            -Dsonar.test.exclusions=src/test/fixtures/**
+            -Dsonar.sources=src
+            -Dsonar.test.exclusions="src/test/**"
             -Dsonar.tests=src/test
             -Dsonar.javascript.coveragePlugin=lcov
             -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info

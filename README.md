@@ -26,12 +26,9 @@ A good start to pretty much every Node.js project!
 
 1. `node-starter` is a 'repository template', and is best used as a base for a new repository. [Here's how you can do that](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
 2. Update 'name' property in the `package.json` file.
-3. If you want to use sonarcloud, [create a new project](https://sonarcloud.io/projects/create).
-4. Add the repository through Github (the easy choice) or manually add the details to the `sonar-project.properties` file.
-5. Click on 'Github Action', copy the the `SONAR_TOKEN`, and in the GitHub UI (`https://github.com/{organisation}/{project}/settings/secrets/actions`) create a new key called - `SONAR_TOKEN`.
-6. Run `nvm use`
-7. Run `npm i`
-8. Run `npm start`
+3. Run `nvm use`
+4. Run `npm i`
+5. Run `npm start`
 
 ## Run commands
 

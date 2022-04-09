@@ -1,4 +1,4 @@
 {
   "*.{js,ts,jsx,tsx}": ["npm run lint --silent"],
-  "package.json": ["npm run typesync --silent"],
+  "package.json": ["npm run typesync --silent"]
 }
